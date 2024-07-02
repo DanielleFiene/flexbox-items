@@ -1,0 +1,104 @@
+.box1 {
+    display: flex;
+    justify-content: center; /* centers flexed text horizontally */
+    align-items: center; /* centers flexed text vertically */
+   background-color: beige; 
+   width: 250px;
+   height: 150px;
+   border: 2px solid black;
+}
+
+.box1-inside {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column; /* centers flexed text in column */
+}
+.box2 {
+    display: flex;
+    justify-content: center; /* centers flexed text horizontally */
+    background-color: lightblue; 
+    width: 200px;
+   height: 150px;
+   border: 2px solid black;
+ }
+
+ .box2-inside {
+    background-color: white;
+    color: black;
+    display: block; /*displays text as block*/
+}
+ .box3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red; 
+    width: 250px;
+   height: 250px;
+   border: 2px solid black;
+ }
+
+ .box3-inside {
+    background-color: white;
+    color: black;
+     /* Optional: add styling for child elements */
+     padding: 10px;
+     border: 1px solid #ccc;
+     /* Flex properties to ensure proper sizing */
+     flex: 1;
+     margin: 0 10px;
+}
+.box3-inside2 {
+    display: flex;
+    background-color: white;
+    color: black;
+     /* Optional: add styling for child elements */
+     padding: 10px;
+     border: 1px solid #ccc;
+     /* Flex properties to ensure proper sizing */
+     flex: 1;
+     margin: 0 10px;
+}
+
+ .box4 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: purple; 
+    width: 200px;
+   height: 150px;
+   border: 2px solid black;
+ }
+
+ .box4-inside {
+    background-color: white;
+    color: black;
+}
+
+ .box5 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: green; 
+    width: 200px;
+   height: 150px;
+   border: 2px solid black;
+ }
+
+ .box5-inside {
+    align-content:center;
+    background-color: white;
+    color: black;
+}
+
+ .box6 {
+    background-color: orange; 
+    width: 200px;
+   height: 150px;
+   border: 2px solid black;
+ }
+
+ .box6-inside {
+    background-color: white;
+    color: black;
+}
